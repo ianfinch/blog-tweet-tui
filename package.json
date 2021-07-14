@@ -1,0 +1,16 @@
+{
+  "name": "blog-tweet-tui",
+  "version": "0.0.1",
+  "description": "Terminal based UI to trigger my lambda-based blog tweets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian Finch",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "aws-sdk": "^2.940.0",
+    "rss-parser": "^3.12.0",
+    "terminal-kit": "^2.1.6"
+  }
+}
